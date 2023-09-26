@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./www:/var/www/html
