@@ -6,4 +6,4 @@ services:
     ports:
       - 8123:80
     volumes:
-      - ./www:/var/www/html
+      - ./www:/usr/share/nginx/html
