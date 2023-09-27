@@ -4,6 +4,6 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - 8125:80
+      - 8128:80
     volumes:
       - ./www:/usr/share/nginx/html
